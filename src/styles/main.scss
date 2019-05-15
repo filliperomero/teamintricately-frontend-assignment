@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+
+body, ul, li, h1, h2, p {
+  padding: 0px;
+  margin: 0px;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  font-family: "Avenir", Arial, Helvetica, sans-serif;
+  color: #345;
+}
+
+a {
+  color: #345;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.main {
+  flex: 1;
+  align-self: center;
+}
+
+#app {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.flex {
+  display: flex;
+}
